@@ -1,0 +1,56 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #333;
+  color: #fff;
+
+  th, td {
+    border: 1px solid #444;
+    padding: 8px;
+    text-align: center;
+  }
+
+  th {
+    background-color: #555;
+  }
+
+  td {
+    background-color: #222;
+    cursor: pointer;
+    position: relative;
+  }
+
+  tr:nth-child(odd) {
+    background-color: #2a2a2a;
+  }
+
+  td:hover {
+    background-color: #444;
+  }
+}
+
+.deleteButton, .addButton {
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #ff5c5c;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.deleteButton:hover, .addButton:hover {
+  background-color: #ff1c1c;
+}
+
+.addButton {
+  background-color: #5cb85c;
+  margin-left: 10px;
+}
+
+.addButton:hover {
+  background-color: #4cae4c;
+}
